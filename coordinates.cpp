@@ -13,21 +13,12 @@ class coordinates{
 
     public:
         coordinates(){};
-        coordinates(int a,int b){
-            x=a;
-            y=b;
-        }
-        coordinates(int a,int b,int c){
+        coordinates(int a,int b,int c=0){
             x=a;
             y=b;
             z=c;
         }
-        void sex(int a,int b){
-
-            x=a;
-            y=b;
-        }
-        void sex(int a,int b,int c){
+        void sex(int a,int b,int c =0){
 
             x=a;
             y=b;
@@ -36,7 +27,7 @@ class coordinates{
 
 void getLength(coordinates &obj) {
             //不知道怎么判段是否赋值
-            if(z ==0xcccc && obj.z ==0xcccc){
+            if(z && obj.z){
                 cout <<"obj.x="<<obj.x<<" obj.y="<<obj.y<<endl;
                 cout <<"x="<<x<<" y="<<y<<" z="<<z<<endl;
                 cout<<pow((obj.x-x),2)<<endl;

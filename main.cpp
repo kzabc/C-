@@ -23,7 +23,7 @@ int main(){	//void 无类型表示符，不可声明变量。C++必须声明返�
 	}
 	delete d;
 	cout <<d<<endl;
-	cout <<*d;
+	cout <<&d;
 	//cout << *d<<endl;
 	int &f = c;
 	cout << f << c<<endl;

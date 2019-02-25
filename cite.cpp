@@ -7,7 +7,6 @@
 using namespace std;
 
 int main(int argc,char *argv[]){
-
     //cout << argc;
     int x =56;
     int &y =x;
@@ -44,12 +43,16 @@ int main(int argc,char *argv[]){
     for (int i = 0; i <10 ; ++i) {
         cout <<b[i]<<" ";
     }
-
+    cout <<endl;
     //  指向 常量的指针
     const int  g= 58;
     const int *f = &g;
     const int h = *f;
+    int zk = 123;
+    f = &zk;
+    
     cout <<f<<endl;
+    cout <<*f<<endl;
     //常量指针
 
     cout  <<&x<<endl;
