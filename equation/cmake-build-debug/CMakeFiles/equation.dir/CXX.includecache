@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zkay/coding/equation/equation.cpp
+equation.h
+/Users/zkay/coding/equation/equation.h
+
+/Users/zkay/coding/equation/equation.h
+cmath
+-
+iostream
+-
+
